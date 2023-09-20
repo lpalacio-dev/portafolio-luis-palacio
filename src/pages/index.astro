@@ -1,0 +1,215 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="px-4 sm:px-6 md:px-8">
+        <div class="">
+            <div class="relative max-w-5xl mx-auto h-screen grid grid-cols-1 place-content-center">
+                <div class="">
+                    <h1 class="font-extrabold text-4xl sm:text-5xl lg:text-6xl text-center text-white">
+                        Hola, soy
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#42d392] to-[#647eff]">
+                            Palacio
+                        </span>
+                    </h1>
+                    <div class="mt-10 text-lg text-center max-w-3xl mx-auto text-slate-400">
+                        Aspiro a ser desarrollador web y estoy en constate crecimiento.
+                        Las tecnologías web Front-end que he utilizado: HTML, CSS, Javascript, Bootstrap, TailwindCSS, Vue.js.
+                        Las tecnologías web Back-end que he utilizado: PHP, Node.js, Yii Framework, MySQL, MongoDB, Firebase.
+                    </div>
+                </div>
+                <div class="mt-20 flex justify-center flex-wrap">
+                    <a href="https://github.com/lpalacio-dev" target="_blank" class="mx-3 my-3 px-4 py-2 flex ease-out duration-300 bg-[#42b883] hover:bg-[#42d392] align-middle font-bold text-[#213547] rounded-lg">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <span class="ml-2">lpalacio-dev</span>
+                    </a>
+                    <a href = "mailto: luispalacio.ap@gmail.com" class="mx-3 my-3 px-4 py-2 flex ease-out duration-300 bg-slate-800 hover:bg-slate-700 align-middle font-bold text-[#aac8e4] rounded-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                        <span class="ml-2">luispalacio.ap@gmail.com</span>
+                    </a>
+                    <div class="mx-3 my-3 px-4 py-2 flex ease-out duration-300 bg-slate-800 hover:bg-slate-700 align-middle font-bold text-[#aac8e4] rounded-lg">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                        </svg>
+                        <span class="ml-2">+52 993 324 0056</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="flex items-start justify-between flex-col sm:flex-row">
+                <div class="w-[25%] text-2xl sm:text-3xl font-extrabold text-slate-50 uppercase">
+                    experiencia
+                </div>
+                <div class="w-full"> 
+                    <div class="px-6">
+                        <div class="flex justify-between items-center flex-wrap text-slate-200">
+                            <div class="text-xl font-semibold">Instituto para el Fomento de las Artesanías de Tabasco</div>
+                            <div class="text-sm">2022 - 2023</div>
+                        </div>
+                        <div class="text-sky-400">Residencia Profesional</div>
+                        <div class="mt-4 text-slate-400">
+                            - Colabore en el desarrollo de un sistema web para la administración del almacén de productos artesanales del IFAT.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20">
+            <div class="flex items-start justify-between flex-col sm:flex-row">
+                <div class="w-[25%] text-2xl sm:text-3xl font-extrabold text-slate-50 uppercase">
+                    Educación
+                </div>
+                <div class="w-full"> 
+                    <div class="px-6">
+                        <div class="flex justify-between items-center flex-wrap text-slate-200">
+                            <div class="text-xl font-semibold">Tecnológico Nacional de México Campus Villahermosa</div>
+                            <div class="text-sm">2018 - 2023</div>
+                        </div>
+                        <div class="text-sky-400">Centro, Tabasco</div>
+                        <div class="mt-4 text-slate-400">
+                            - Ingeniería en Sistemas Computacionales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20 mb-10">
+            <div class="w-[25%] text-2xl sm:text-3xl font-extrabold text-slate-50 uppercase mb-6">
+                Proyectos
+            </div>
+            <div class="px-4 grid grid-cols-2 gap-4 md:grid-cols-2 sm: grid-cols-1">
+                <div class="max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="">
+                        <div class="flex flex-col">
+                            <img class="w-full object-cover" src="sistema-ifat.png" alt="">
+                            <div class="p-8">
+                                <div class="text-lg tracking-wide text-slate-200 font-semibold">
+                                    Sistema para la administración del IFAT
+                                </div>
+                                <div class="tracking-wide text-sm text-slate-300 font-semibold">
+                                    <span class="text-sky-400">Tecnologías: </span> 
+                                    HTML, CSS, JS, Bootstrap, PHP, Yii Framework, MySQL
+                                </div>
+                                <p class="mt-2 text-slate-300">
+                                    Colabore en el desarrollo del módulo que permite administrar los productos en el almacén del IFAT.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="">
+                        <div class="flex flex-col">
+                            <img class="w-full object-cover" src="vue-todo-list.png" alt="">
+                            <div class="p-8">
+                                <div class="text-lg tracking-wide text-slate-200 font-semibold">
+                                    Todo List
+                                </div>
+                                <div class="tracking-wide text-sm text-slate-300 font-semibold">
+                                    <span class="text-sky-400">Tecnologías: </span> 
+                                    HTML, CSS, JS, Vue.js, TypeScript, TailwindCSS, Firebase
+                                </div>
+                                <p class="mt-2 text-slate-300">
+                                    Aplicación de lista de tareas por hacer, desarrollada con Vue, en Firebase se guardan las tareas de los usuarios. Cada usuario tiene sus tareas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="">
+                        <div class="flex flex-col">
+                            <img class="w-full object-cover" src="vue-pokeapi.png" alt="">
+                            <div class="p-8">
+                                <div class="text-lg tracking-wide text-slate-200 font-semibold">
+                                    Buscador de pokémon - PokeApi
+                                </div>
+                                <div class="tracking-wide text-sm text-slate-300 font-semibold">
+                                    <span class="text-sky-400">Tecnologías: </span> 
+                                    HTML, CSS, JS, Vue.js, TypeScript, TailwindCSS
+                                </div>
+                                <p class="mt-2 text-slate-300">
+                                    Práctica para reforzar conocimientos en Vue, TypeScript, Tailwind y consumo de API. Permite buscar un pokémon.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="">
+                        <div class="flex flex-col">
+                            <img class="w-full object-cover" src="vue-mapbox.png" alt="">
+                            <div class="p-8">
+                                <div class="text-lg tracking-wide text-slate-200 font-semibold">
+                                    Mapa - Mapbox
+                                </div>
+                                <div class="tracking-wide text-sm text-slate-300 font-semibold">
+                                    <span class="text-sky-400">Tecnologías: </span> 
+                                    HTML, CSS, JS, Vue.js, TypeScript, Mapbox Api
+                                </div>
+                                <p class="mt-2 text-slate-300">
+                                    Proyecto de curso en donde aprendí Vue, TypeScript, consumo de API. 
+                                    Es un mapa que muestra tú ubicación y rutas a otros puntos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="">
+                        <div class="flex flex-col">
+                            <img class="w-full object-cover" src="curso-javascript-fullstack.png" alt="">
+                            <div class="p-8">
+                                <div class="text-lg tracking-wide text-slate-200 font-semibold">
+                                    Administrador de pacientes de veterinaria
+                                </div>
+                                <div class="tracking-wide text-sm text-slate-300 font-semibold">
+                                    <span class="text-sky-400">Tecnologías: </span> 
+                                    HTML, CSS, JS, React, TailwindCSS, Node.js, Express, MongoDB
+                                </div>
+                                <p class="mt-2 text-slate-300">
+                                    Proyecto de curso en donde aprendí a desarrollar una aplicación desde cero, la parte Front-end y Back-end.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md mx-auto bg-slate-800 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="">
+                        <div class="flex flex-col">
+                            <img class="w-full object-cover" src="nuxt-tiktok-clone.png" alt="">
+                            <div class="p-8">
+                                <div class="text-lg tracking-wide text-slate-200 font-semibold">
+                                    Clon de Tiktok
+                                </div>
+                                <div class="tracking-wide text-sm text-slate-300 font-semibold">
+                                    <span class="text-sky-400">Tecnologías: </span> 
+                                    HTML, CSS, JS, Vue.js, Nuxt.js, TailwindCSS, Laravel, MySQL.
+                                </div>
+                                <p class="mt-2 text-slate-300">
+                                    Proyecto de curso en donde aprendí a dessarrollar y conectar una aplicación Front-end de Nuxt con un Back-end Laravel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</Layout>
